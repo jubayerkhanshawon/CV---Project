@@ -1,0 +1,246 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: rgb(229, 225, 218);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  background-color: rgb(251, 249, 241);
+  margin: 0px auto;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+header{
+
+}
+
+.profile-img{
+  width: 100px;
+  height: 120px;
+  border: 3px solid rgb(193, 190, 190);
+  border-radius: 50%;
+  float: left;
+}
+
+.header-bio{
+  float: left;
+  padding: 35px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: rgb(146, 199, 207);
+}
+
+
+
+.header-contact{
+  padding: 30px;
+  float: right;
+}
+
+.header-contact a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  float: right;
+}
+
+.header-contact a:hover{
+  text-decoration: underline;
+  color: tomato;
+}
+
+.clear-div{
+  clear: both;
+}
+
+hr{
+  border: solid black 3px;
+  border-bottom: none;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+.common-hr{
+  border: solid black 1px;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* personal information section starts here */
+
+.personal-information{
+
+}
+
+.personal-content{
+  margin: 30px;
+}
+
+.left-div{
+  width: 30%;
+  float: left;
+}
+
+.right-div{
+  width: 70%;
+  float: left;
+}
+.right-div pre{
+  width: 70%;
+  float: left;
+  font-size: 18.72px;
+  font-family: 'Roboto';
+  font-weight: 550;
+}
+
+/* summary section starts here */
+
+  .summary-section{
+
+  }
+
+  .summary-content{
+    margin: 30px;
+  }
+
+  #summary{
+  width: 80%;
+  float: left;
+  font-size: 18.72px;
+  font-family: 'Roboto';
+  font-weight: 550;
+  margin-left: 70px;
+}
+
+
+/* summary section end here */
+
+/* work section starts here */
+
+.work-section{
+
+}
+
+.work-content{
+  margin: 30px;
+}
+
+.right-div h3{
+  width: 80%;
+  float: left;
+  margin-left: 70px;
+}
+
+.right-div ul{
+   width: 80%;
+  float: left;
+  margin-left: 90px;
+  list-style-type: disc;
+}
+
+.right-div li{
+  width: 80%;
+  float: left;
+  margin: none;
+}
+
+.work-p{
+  width: 120%;
+  float: left;
+  font-size: 18.72px;
+  font-family: 'Roboto';
+  font-weight: 550;
+}
+
+
+/* work section end here */
+
+/* skill section starts here */
+
+.skill-section{
+
+}
+
+.skill-content{
+margin: 30px;
+}
+
+.skill-p{
+  width: 120%;
+  float: left;
+  font-size: 18.72px;
+  font-family: 'Roboto';
+  font-weight: 550;
+}
+
+.skill-p span{
+  font-weight: bold;
+  color: rgb(170, 215, 217);
+}
+
+
+/* skill section ends here */
+
+/* education section starts here */
+
+.education-section{
+
+}
+
+.education-content{
+  margin: 30px;
+}
+
+.edu-p{
+  width: 120%;
+  float: left;
+  font-size: 18.72px;
+  font-family: 'Roboto';
+  font-weight: 550;
+}
+
+.edu-h3{
+  float:none;
+  font-size: 18.72px;
+}
+
+
+/* education section end here */
+
+/* footer section starts here */
+
+.footer-container{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-container a{
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+} 
+
+.footer-container p{
+  color: white;
+  margin-top: 20px;
+} 
+
+.footer-container p:hover{
+  text-decoration: underline;
+  color: tomato;
+}
+
+.footer-container a:hover{
+  text-decoration: underline;
+  color: tomato;
+}
+
+/* footer section ends here */
